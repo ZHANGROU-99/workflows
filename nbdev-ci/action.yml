@@ -72,5 +72,6 @@ runs:
           nbdev_test --flags "$FLAGS"
         fi
         nbdev_test --path tests/
-        pip install nbdev pytest
+        pip install pytest
+        pip install pytest-mpl
         pytest tests/

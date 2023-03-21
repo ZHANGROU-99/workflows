@@ -72,4 +72,3 @@ runs:
           nbdev_test --flags "$FLAGS"
         fi
         nbdev_test --path tests/
-        fi
